@@ -1,0 +1,33 @@
+{
+  "name" : "Dept",
+  "preName" : "",
+  "comment" : "部门表",
+  "templateGroupName" : "Default",
+  "fullColumn" : [ {
+    "name" : "deptno",
+    "comment" : null,
+    "type" : null,
+    "shortType" : null,
+    "custom" : false,
+    "ext" : { }
+  }, {
+    "name" : "dname",
+    "comment" : null,
+    "type" : null,
+    "shortType" : null,
+    "custom" : false,
+    "ext" : { }
+  }, {
+    "name" : "dbSource",
+    "comment" : null,
+    "type" : null,
+    "shortType" : null,
+    "custom" : false,
+    "ext" : { }
+  } ],
+  "pkColumn" : null,
+  "otherColumn" : null,
+  "savePackageName" : "",
+  "savePath" : "./springcloud-provider-dept-8001/src/main/java",
+  "saveModelName" : "springcloud-provider-dept-8001"
+}
