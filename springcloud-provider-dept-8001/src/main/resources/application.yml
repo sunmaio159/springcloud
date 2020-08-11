@@ -13,3 +13,12 @@ spring:
     url: jdbc:mysql://localhost:3306/DB01?serverTimezone=UTC&characterEncoding=utf8&useUnicode=true&useSSL=false
     username: root
     password: 123
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:7001/eureka
+  instance:
+    instance-id: springcloud-provider-dept8001 #定义eureka上描述信息
+info:
+  app.name: sun-springcloud
+  company.name: sun
